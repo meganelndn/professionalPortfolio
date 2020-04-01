@@ -1,19 +1,69 @@
-#section_one {
+/*------------ LANDING PAGE -----------*/
+#landing-page {
     display: grid;
-    grid-template-columns: 0.8fr 1.2fr 1.2fr 0.8fr;
-    grid-template-rows: 0.3fr 2.1fr 0.6fr;
-    grid-template-areas: "logo . . nav"". illustration-me illustration-me ."". . . .";
+    grid-template-columns: 0.8fr 2.4fr 0.8fr;
+    grid-template-rows: 0.3fr 1fr 0.6fr;
+    grid-template-areas: "logo . nav"". illustration-me ."". line .";
 }
 
+/*----- logo -----*/
 .logo {
     grid-area: logo;
-    background-image: url(imgs/logo.png);
+    width: 30%;
+    height: auto;
 }
 
+svg#logo {
+    background: url(imgs/logo.svg);
+    stroke-width: 3;
+    position: sticky;
+}
+
+.logo-cls {
+    fill: transparent;
+}
+
+/*----- nav -----*/
 .nav {
     grid-area: nav;
 }
 
+.nav a {
+    float: right;
+    margin: 6px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav a:hover {
+    color: grey;
+}
+
+/*---- icons ----*/
+#mailbox,
+#github {
+    width: 7%;
+    height: auto;
+    float: right;
+    margin: 4px;
+}
+
+/*-- illustration --*/
 .illustration-me {
     grid-area: illustration-me;
+    background: url(imgs/two_girls.svg);
+    width: 50%;
+    height: auto;
 }
+
+svg#illustration1 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+/*---- scroll ----*/
+/* .line {
+    grid-area: line;
+} */
