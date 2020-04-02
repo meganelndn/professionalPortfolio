@@ -1,28 +1,28 @@
 [{
         "number": "Project 1",
         "title": "Huset KBH",
-        "description": "blablabla more text coming soon...",
+        "description": "TODO: Insert text about the project and what it expected, as well as which skills I managed to gain etc etc etc etc etc etc etc etc.",
         "theme": "Content Management System (CMS)",
         "video": ""
     },
     {
         "number": "Project 2",
         "title": "Diana Stroie",
-        "description": "blablabla more text coming soon...",
-        "theme": "More CMS (WordPress)",
+        "description": "TODO: Insert text about the project and what it expected, as well as which skills I managed to gain etc etc etc etc etc etc etc etc.",
+        "theme": "WordPress as a CMS",
         "video": ""
     },
     {
         "number": "Project 3",
         "title": "Greenpeace Denmark",
-        "description": "blablabla more text coming soon...",
+        "description": "TODO: Insert text about the project and what it expected, as well as which skills I managed to gain etc etc etc etc etc etc etc etc.",
         "theme": "User Centered Design",
         "video": ""
     },
     {
         "number": "Project 4",
         "title": "Animation Project",
-        "description": "blablabla more text coming soon...",
+        "description": "TODO: Insert text about the project and what it expected, as well as which skills I managed to gain etc etc etc etc etc etc etc etc.",
         "theme": "Advanced Animation / SVG",
         "video": ""
     }

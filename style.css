@@ -1,9 +1,14 @@
-/*------------ LANDING PAGE -----------*/
-#landing-page {
+/* * {
+    box-sizing: border-box;
+    transition: 0.3s ease-in-out;
+} */
+
+/*------------ SECTION 1 -----------*/
+#landpage {
     display: grid;
     grid-template-columns: 0.8fr 2.4fr 0.8fr;
     grid-template-rows: 0.3fr 1fr 0.6fr;
-    grid-template-areas: "logo . nav"". illustration-me ."". line .";
+    grid-template-areas: "logo . nav"". illustration-me ."". hello .";
 }
 
 /*----- logo -----*/
@@ -49,10 +54,10 @@ svg#logo {
 }
 
 /*-- illustration --*/
-.illustration-me {
+.illustration1 {
     grid-area: illustration-me;
     background: url(imgs/two_girls.svg);
-    width: 50%;
+    width: 70%;
     height: auto;
 }
 
@@ -64,6 +69,157 @@ svg#illustration1 {
 }
 
 /*---- scroll ----*/
-/* .line {
-    grid-area: line;
+/* .hello {
+    grid-area: hello;
 } */
+
+/*------------ SECTION 2 -----------*/
+#project-page {
+    display: grid;
+    grid-template-columns: 0.8fr 2.4fr 0.8fr;
+    grid-template-rows: 0.3fr 1fr;
+    grid-template-areas: "logo . nav"". projects .";
+}
+
+h1 {
+    grid-area: projects;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8em 0 2.5em 0;
+    text-transform: uppercase;
+}
+
+h2 {
+    grid-area: projects;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+}
+
+p {
+    grid-area: projects;
+    font-family: "Baskerville";
+    font-size: 1em;
+    display: flex;
+    justify-content: justify;
+    align-items: center;
+    margin: 2em;
+}
+
+/*------------ SECTION 3 -----------*/
+#cv-page {
+    display: grid;
+    grid-template-columns: 0.8fr 2.4fr 0.8fr;
+    grid-template-rows: 0.3fr;
+    grid-template-areas: "logo . nav";
+}
+
+.cv-text {
+    grid-area: cv-text;
+    font-size: 1em;
+    display: flex;
+    justify-content: justify;
+    align-items: center;
+    margin: 5em 20em;
+}
+
+.bio {
+    font-size: .9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+}
+
+#cv {
+    display: grid;
+    grid-template-columns: 0.8fr 0.3fr 0.8fr;
+    grid-template-rows: 5fr 0.3fr 5fr 0.3fr 5fr 0.3fr 5fr 0.3fr 5fr 0.3fr 5fr 0.3fr;
+    grid-template-areas: ". line-1 ."
+        ". text-1 svg1"
+        ". line-2 ."
+        "svg2 text-2 ."
+        ". line-3 ."
+        ". text-3 svg3"
+        ". line-4 ."
+        "svg4 text-4 .";
+}
+
+h3 {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.line-1 {
+    grid-area: line-1;
+    width: 1px;
+    background-color: black;
+    height: 100%;
+    position: fixed;
+    left: 50%;
+    z-index: -10;
+    position: sticky;
+}
+
+.line-2 {
+    grid-area: line-2;
+    width: 1px;
+    background-color: black;
+    height: 100%;
+    position: fixed;
+    left: 50%;
+    z-index: -10;
+    position: sticky;
+}
+
+.line-3 {
+    grid-area: line-3;
+    width: 1px;
+    background-color: black;
+    height: 100%;
+    position: fixed;
+    left: 50%;
+    z-index: -10;
+    position: sticky;
+}
+
+.line-4 {
+    grid-area: line-4;
+    width: 1px;
+    background-color: black;
+    height: 100%;
+    position: fixed;
+    left: 50%;
+    z-index: -10;
+    position: sticky;
+}
+
+.text-1 {
+    grid-area: text-1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text-2 {
+    grid-area: text-2;
+    display: flex;
+    justify-content: flex-start;
+    text-align: end;
+}
+
+.text-3 {
+    grid-area: text-3;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text-4 {
+    grid-area: text-4;
+    display: flex;
+    justify-content: flex-start;
+    text-align: end;
+}
