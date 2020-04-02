@@ -1,0 +1,29 @@
+[{
+        "number": "Project 1",
+        "title": "Huset KBH",
+        "description": "blablabla more text coming soon...",
+        "theme": "Content Management System (CMS)",
+        "video": ""
+    },
+    {
+        "number": "Project 2",
+        "title": "Diana Stroie",
+        "description": "blablabla more text coming soon...",
+        "theme": "More CMS (WordPress)",
+        "video": ""
+    },
+    {
+        "number": "Project 3",
+        "title": "Greenpeace Denmark",
+        "description": "blablabla more text coming soon...",
+        "theme": "User Centered Design",
+        "video": ""
+    },
+    {
+        "number": "Project 4",
+        "title": "Animation Project",
+        "description": "blablabla more text coming soon...",
+        "theme": "Advanced Animation / SVG",
+        "video": ""
+    }
+]
